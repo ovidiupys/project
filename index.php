@@ -6,7 +6,7 @@
 <body>
 <div>
 
-<?php echo 'the PHP file in the master branch.'; ?>
+<?php echo 'the PHP file in the master branch'; ?>
 
 </div>
 </body>

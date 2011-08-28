@@ -2,8 +2,8 @@
 
 $way = $_GET['way'];
 
-if(!in_array($way,$ways){$rezultat = 'err';}
-else{
+//if(!in_array($way,$ways){$rezultat = 'err';}
+//else{
 switch($way)
 	{
 		case "easy" :
@@ -21,6 +21,6 @@ switch($way)
   }*/echo 'easy' ; break;
 		case "complex" :echo 'complex'; break;
 	}
-}
+//}
 //echo $rezultat;
 ?>

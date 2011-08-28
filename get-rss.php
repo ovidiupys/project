@@ -7,7 +7,7 @@ else{
 switch($way)
 	{
 		case "easy" :
-  $doc = new DOMDocument();
+ /* $doc = new DOMDocument();
   $doc->load('http://weather.yahooapis.com/forecastrss?p=ROXX0008&u=c');
   $arrFeeds = array();
   foreach ($doc->getElementsByTagName('item') as $node) {
@@ -18,10 +18,9 @@ switch($way)
       'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue
       );
     array_push($arrFeeds, $itemRSS);
-  } ; break;
-		case "complex" : ; break;
+  }*/echo 'easy' ; break;
+		case "complex" :echo 'complex'; break;
 	}
 }
-print_r($arrFeeds);
 //echo $rezultat;
 ?>

@@ -13,7 +13,7 @@ $(document).ready(function()
 	$("#easy").click(function(){  
     	$("#result")  
         .html(ajax_load)  
-        .load(loadUrl, "language=php&version=5");  
+        .load(loadUrl, "way=easy");  
 	});
 });
 </script>

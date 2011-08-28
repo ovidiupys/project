@@ -6,7 +6,11 @@
 <body>
 <div>
 
-<?php echo 'the PHP file in the master branch'; ?>
+<div style="text-align:center;">
+<h1>Two ways of getting some data from an rss link</h1>
+<h2><a href="get-rss.php?way=easy" id="easy">The easy way</a></h2>
+
+<h2><a href="get-rss.php?way=complex">The complex way</a></h2>
 
 </div>
 </body>

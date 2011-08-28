@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+
+use LWP::Simple qw(get);
+ 
+my $buf = get("http://weather.yahooapis.com/forecastrss?p=ROXX0008&u=c");
+if($buf =~ m/, (.*) C/){
+
+$buf =~ m/, (.*) C/;
+$substr = $1;
+
+open (TEMPERATURI, ">text.log") or print "error when opening file log";
+
+print TEMPERATURI $substr;
+
+
+close(TEMPERATURI);
+
+}
